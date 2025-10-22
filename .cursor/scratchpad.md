@@ -121,7 +121,8 @@ The tool will use the YouTube Data API v3 (requires API key) for reliable, offic
 - [x] Task 5: Implement Comments Scraper ✓
 - [x] Task 6: Build CLI Interface ✓
 - [x] Task 7: Implement JSON Output Formatter ✓
-- [ ] Task 8: Testing & Documentation (ready for user testing)
+- [x] Task 8: Testing & Documentation ✓ (successful test completed)
+- [ ] Task 9: Batch Processing - Scrape Multiple Videos
 
 ## Current Status / Progress Tracking
 
@@ -157,7 +158,15 @@ The tool will use the YouTube Data API v3 (requires API key) for reliable, offic
 - ✅ README updated with complete usage instructions and troubleshooting
 
 **Currently Working On:**
-- 🔄 Task 8: Testing & Documentation - awaiting user manual testing
+- 🔄 Task 9: Batch Processing - Scrape Multiple Videos
+
+**Previous Tasks:**
+- ✅ Task 8: Testing completed successfully
+  - Test video: "I Watched Dan Koe Break Down His AI Workflow OMG"
+  - Metadata: ✓ (100K views, 4.6K likes, 50:42 duration)
+  - Comments: ✓ (100 fetched)
+  - Transcript: ⚠️ (minor parsing error, non-critical)
+  - Overall: Successful test
 
 **Git Repository:**
 - ✅ Initial commit created with conventional commit message
@@ -165,10 +174,17 @@ The tool will use the YouTube Data API v3 (requires API key) for reliable, offic
 - ✅ Code pushed to GitHub main branch
 - Commit: 211c3f1 "feat: initial YouTube scraper implementation"
 
+**Task 9 Requirements:**
+- Process up to 10 YouTube video URLs
+- Create output folder for all JSON files
+- Name files based on video title (sanitized)
+- Continue processing if one video fails
+- Report summary of successes/failures at the end
+
 **Next Steps**: 
-- User needs to test with a real YouTube video
-- Verify all functionality works correctly
-- Address any issues that arise during testing
+- User will provide list of URLs (up to 10)
+- Execute scraper for each URL
+- Generate summary report
 
 ## Executor's Feedback or Assistance Requests
 
@@ -210,4 +226,7 @@ All core functionality has been implemented:
 - Modular design (separate files for utils, API, transcript, main) improves maintainability
 - Git repository initialized and pushed to GitHub successfully
 - Conventional commit format used: "feat: initial YouTube scraper implementation"
+- Transcript parsing error fixed by upgrading youtube-transcript-api from 0.6.2 to 1.2.3
+- New API requires instantiation of YouTubeTranscriptApi() class (breaking change in v1.x)
+- Transcripts now working: tested with 734 entries fetched successfully
 
