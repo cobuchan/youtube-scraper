@@ -28,6 +28,11 @@ Lessons learned on the YouTube Moonshot Program. These are context-specific insi
 
 - **2026-01-14**: Six sources covers full lifecycle: ideas (Koerner, Isenberg), technical (Willison, Swyx), growth (Lenny), landscape (Whittemore). Gap was technical depth — Willison/Swyx filled it.
 
+### Tooling
+
+- **2026-01-14**: Apple Podcasts = audio only, no transcripts. Need Whisper (`pip install openai-whisper`) to transcribe. YouTube preferred when available (has auto-captions).
+- **2026-01-14**: Some podcast episodes aren't on YouTube (or removed for ToS). Need audio transcription fallback.
+
 ---
 
 *Updated continuously during project work.*
