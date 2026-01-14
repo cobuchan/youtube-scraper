@@ -15,7 +15,7 @@ Output from transcript→PRD conversion lives in `docs/prds/`
 
 | PRD | Source Video | Viability | Status |
 |-----|--------------|-----------|--------|
-| *none yet* | | | |
+| [Free Vertical CRM](prds/free-vertical-crm.md) | Koerner/Cannon - Stupid Simple Apps | 7/10 | Ready to evaluate |
 
 ## Strategy Intel
 

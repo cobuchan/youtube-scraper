@@ -1,0 +1,125 @@
+{
+  "source": {
+    "video_url": "https://www.youtube.com/watch?v=bH_coG-2ASo",
+    "video_title": "\"Stupid Simple\" Apps Are Making Millions While You Overthink",
+    "channel": "The Koerner Office",
+    "publish_date": "2024-12-19",
+    "transcript_method": "auto"
+  },
+  "idea": "Give away a best-in-class CRM for a specific vertical (dentists, chiropractors, barbers) for FREE, and monetize through white-labeled credit card processing, payroll, and health insurance services.",
+  "problem": {
+    "pain": "Small business owners pay $100-500/month for generic CRMs that aren't built for their industry, plus multiple vendors for payments, payroll, insurance",
+    "who_has_it": "Solo practitioners and small service businesses: dentists, chiropractors, barbers, HVAC, plumbers",
+    "current_solution": "Pay for generic CRM + separate payment processor + separate payroll + separate insurance, or manage manually"
+  },
+  "value_prop": "Your entire business operating system — CRM, scheduling, invoicing, payments — for $0/month. We make money when you make money.",
+  "mvp": {
+    "description": "Industry-specific CRM (white-label Go High Level), appointment scheduling, client communication, invoicing + payment collection via white-labeled processor",
+    "not_included": [
+      "Custom-built CRM (use white-label)",
+      "Payroll integration",
+      "Health insurance",
+      "Multiple verticals"
+    ],
+    "success_metric": "10 paying merchants processing $50K+/month within 90 days = $5K/month revenue at 1% margin"
+  },
+  "stories": [
+    {
+      "id": "STORY-001",
+      "as_a": "small business owner",
+      "i_want": "sign up for a free CRM built for my industry",
+      "so_that": "I can manage my business without paying SaaS fees",
+      "acceptance_criteria": [
+        "Sign up with email",
+        "Industry-specific onboarding flow",
+        "Import existing client list",
+        "Connected to payment processor within setup"
+      ],
+      "priority": "P0",
+      "size": "M"
+    },
+    {
+      "id": "STORY-002",
+      "as_a": "service provider",
+      "i_want": "let clients book appointments online",
+      "so_that": "I don't have to manage scheduling manually",
+      "acceptance_criteria": [
+        "Embeddable booking widget",
+        "Calendar sync (Google, Outlook)",
+        "Automated reminders (email/SMS)"
+      ],
+      "priority": "P0",
+      "size": "M"
+    },
+    {
+      "id": "STORY-003",
+      "as_a": "business owner",
+      "i_want": "send invoices and collect payment in-app",
+      "so_that": "I get paid faster and everything is tracked",
+      "acceptance_criteria": [
+        "Create invoice from client record",
+        "Client pays via credit card",
+        "Payment recorded automatically",
+        "Funds deposited to my bank account"
+      ],
+      "priority": "P0",
+      "size": "L"
+    },
+    {
+      "id": "STORY-004",
+      "as_a": "platform operator",
+      "i_want": "white-label a payment processor",
+      "so_that": "I earn margin on every transaction without building payments infrastructure",
+      "acceptance_criteria": [
+        "Integrated white-label processor (Stripe Connect, Finix, etc.)",
+        "Standard 2.9% + $0.30 pricing to merchant",
+        "0.5-1% margin to platform",
+        "Compliant onboarding (KYC)"
+      ],
+      "priority": "P0",
+      "size": "L"
+    }
+  ],
+  "technical": {
+    "likely_stack": "Next.js + Supabase + Stripe Connect (or Go High Level white-label)",
+    "key_challenges": [
+      "Payment processor onboarding — KYC/compliance for sub-merchants",
+      "Industry-specific customization",
+      "Margin compression on payments",
+      "Switching costs for merchants"
+    ],
+    "dependencies": [
+      "White-label payment processor partner",
+      "Go High Level agency account ($297-497/month) OR dev time for custom"
+    ]
+  },
+  "risks": [
+    {
+      "risk": "Merchants don't want to switch payment processors",
+      "likelihood": "high",
+      "mitigation": "Target new businesses or those unhappy with current processor"
+    },
+    {
+      "risk": "Margins too thin to be profitable",
+      "likelihood": "medium",
+      "mitigation": "Volume is key. Upsell payroll/insurance in Phase 2"
+    },
+    {
+      "risk": "Go High Level changes terms",
+      "likelihood": "medium",
+      "mitigation": "Build with extraction in mind"
+    }
+  ],
+  "tech_fit": {
+    "score": 8,
+    "primary_stack": "Next.js + Supabase + Stripe Connect",
+    "buildable_in_days": true,
+    "ai_leverage": "light",
+    "notes": "Perfect fit. GHL shortcut gets to market fast. Custom build has more upside but more work."
+  },
+  "viability": {
+    "score": 7,
+    "reasoning": "Model is proven (Squarespace, Toast do this). Main risk is sales — convincing merchants to switch processors. Key insight: compete on 'it's free' not features.",
+    "recommendation": "build"
+  }
+}
