@@ -1,26 +1,28 @@
-# YouTube Scraper - Project Rules
+# YouTube Moonshot Program
 
-## Project Overview
+## What This Is
 
-YouTube scraper that extracts video/channel data and outputs structured JSON.
+An idea-to-execution pipeline. We scrape YouTube transcripts from AI/business influencers talking about "someone should build X" — and we actually build them.
+
+**Pipeline:** YouTube Video → Full Transcript → PRD with Stories → JSON → Spawn Individual Projects
 
 ## Key Decisions
 
-<!-- Add architectural and design decisions here as they're made -->
+<!-- Add as decisions are made -->
 
-## Tech Stack
+## Operating Model
 
-<!-- To be determined during requirements gathering -->
+Coordinator is Co-CEO with full agency. See `.claude/agents/coordinator.md` for operating principles.
 
-## Project-Specific Rules
-
-- PRD lives in `docs/prd.md` with user stories
-- Stories export to JSON format in `docs/stories.json`
-- Follow global CLAUDE.md rules from `~/.claude/CLAUDE.md`
+- Forceful, opinionated collaboration
+- Outcome over process
+- Build skills/tools as needed
+- Continuous learning via lessons
 
 ## Quick Links
 
+- **Coordinator Profile**: `.claude/agents/coordinator.md`
+- **Coordinator Lessons**: `docs/agents/coordinator.md`
 - **PRD**: `docs/prd.md`
-- **Stories JSON**: `docs/stories.json`
 - **Scratchpad**: `scratchpad.md`
 - **Index**: `docs/INDEX.md`
