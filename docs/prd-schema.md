@@ -112,7 +112,30 @@ What could kill this? Be honest.
 }
 ```
 
-### 9. Viability Assessment
+### 9. Tech Stack Fit
+How well does this translate to Claude Code + our stack?
+
+```json
+{
+  "tech_fit": {
+    "score": "1-10",
+    "primary_stack": "string - e.g., Next.js + Supabase",
+    "buildable_in_days": true|false,
+    "ai_leverage": "none|light|heavy",
+    "notes": "string"
+  }
+}
+```
+
+**Scoring guide:**
+- 9-10: Perfect fit. Web app, API integrations, data processing.
+- 7-8: Good fit. Minor friction (e.g., mobile, real-time).
+- 5-6: Possible but stretching. Hardware, heavy ML, marketplaces.
+- 1-4: Poor fit. Physical, regulatory, heavy capital.
+
+---
+
+### 10. Viability Assessment
 My honest take on whether this is worth building.
 
 ```json
@@ -157,6 +180,13 @@ My honest take on whether this is worth building.
     "dependencies": []
   },
   "risks": [],
+  "tech_fit": {
+    "score": 0,
+    "primary_stack": "",
+    "buildable_in_days": false,
+    "ai_leverage": "",
+    "notes": ""
+  },
   "viability": {
     "score": 0,
     "reasoning": "",

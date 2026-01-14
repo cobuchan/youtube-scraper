@@ -4,7 +4,8 @@
 
 | Document | Purpose |
 |----------|---------|
-| [PRD Schema](prd-schema.md) | JSON schema for moonshot PRDs |
+| [PRD Schema](prd-schema.md) | JSON schema for moonshot PRDs (with tech stack fit) |
+| [Sources](sources.md) | Trusted source funnels and filtering criteria |
 | [Coordinator Lessons](agents/coordinator.md) | Project-specific lessons |
 
 ## PRDs (Moonshot Ideas)
@@ -28,6 +29,7 @@ Output from strategy video processing lives in `docs/strategy/`
 | Skill | Purpose |
 |-------|---------|
 | [transcript-to-prd](../skills/transcript-to-prd.md) | Convert YouTube transcript to structured PRD |
+| [transcript-to-strategy](../skills/transcript-to-strategy.md) | Convert strategy video to synopsis + recommendations |
 
 ## Plans
 
