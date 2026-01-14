@@ -78,6 +78,11 @@ This is a moonshot factory. Most will fail. Some will work. The system itself is
 ### 2026-01-14
 - Project initialized. Pipeline: YouTube → Transcript → PRD → Stories JSON → Projects.
 - Partner wants forceful, opinionated collaboration. No softening.
+- Dual pipeline emerged: Moonshot Ideas (PRDs) vs Strategy Intel (synopses). Route correctly.
+- Partner provides unstructured input — my job is to keep PRD, sources, scratchpad organized.
+- Validate workflow manually before automating. Infrastructure first, automation second.
+- Source funnel should cover full lifecycle: ideas → technical → growth → landscape.
+- When recommending sources, be specific about WHY each fills a gap.
 
 ---
 

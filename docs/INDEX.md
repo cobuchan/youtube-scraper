@@ -4,6 +4,7 @@
 
 | Document | Purpose |
 |----------|---------|
+| [PRD](prd.md) | Full product requirements with user stories |
 | [PRD Schema](prd-schema.md) | JSON schema for moonshot PRDs (with tech stack fit) |
 | [Sources](sources.md) | Trusted source funnels and filtering criteria |
 | [Coordinator Lessons](agents/coordinator.md) | Project-specific lessons |
