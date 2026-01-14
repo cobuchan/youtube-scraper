@@ -42,6 +42,8 @@
 ### Strategy Intel
 - **Neil Patel - 8 Marketing Trends 2026** → `docs/strategy/8-marketing-trends-2026/`
   - Key tactics: ManyChat on-platform capture, AI validation, live content, multi-language
+- **Isenberg/James - Claude Code Local SEO** → `docs/strategy/claude-code-local-seo/`
+  - Key tactics: Boring business arbitrage, SEO audit via ultrathink, location pages, Figma→Anima→Claude workflow
 
 ### Moonshot PRDs
 - **Free Vertical CRM** → `docs/prds/free-vertical-crm.md`
@@ -64,24 +66,29 @@
 
 ## Current Session Summary
 
-**Date**: 2026-01-14
+**Date**: 2026-01-14 (Session 2)
 
 **What we accomplished:**
-- Full project setup from scratch
-- Source funnels with 6 trusted sources
-- Dual pipeline (ideas vs strategy) validated
-- First strategy intel processed (Neil Patel)
-- First moonshot PRD created (Free Vertical CRM)
-- Discovered Apple Podcasts needs Whisper for transcription
+- Second strategy intel: Isenberg/James "Claude Code Local SEO" → `docs/strategy/claude-code-local-seo/`
+- Created `docs/patterns.md` — institutional knowledge for pattern recognition across sources
+- Updated INDEX.md with new docs
+- Identified key patterns: Boring Business Arbitrage, Free Product + Adjacent Monetization, Vertical Focus
+
+**Patterns identified so far:**
+- Free Product + Adjacent Monetization (Koerner/Cannon)
+- Boring Business Arbitrage (Isenberg/James)
+- Vertical Focus > Horizontal Features (Koerner/Cannon)
+- Claude Code Sweet Spot (Isenberg/James)
+- Good SEO = Good GEO (Isenberg/James)
 
 **Blockers:**
 - Whisper not installed — can't transcribe podcast-only episodes
 
 **Next session should:**
-1. Install Whisper: `pip install openai-whisper`
-2. Transcribe Episode 264 (Koerner - panic paying skill)
-3. Consider building RSS automation script
-4. Process more videos from trusted sources
+1. Process more YouTube videos from Tier 1/2 sources
+2. Continue building patterns.md as we process content
+3. Consider installing Whisper when podcast-only content is needed
+4. Watch for: pricing strategies, growth channels beyond SEO, team scaling patterns
 
 ## Lessons Learned This Session
 
@@ -89,11 +96,15 @@
 - YouTube videos can be removed (ToS) — always handle gracefully
 - Some podcast episodes aren't on YouTube yet — need audio fallback
 - Pre-sell validation ("sell before you build") is a key pattern from Will Cannon
+- VTT transcripts need Python cleaning (timestamps, duplicates) — bash pipes insufficient
+- Pattern recognition across sources is distinct from individual PRDs/strategy — hence patterns.md
+- Strategy intel is immediately applicable (SEO tactics) while moonshots need more validation
 
 ## Quick Links
 
 - **PRD Schema**: `docs/prd-schema.md`
 - **Sources**: `docs/sources.md`
+- **Patterns**: `docs/patterns.md`
 - **Strategy Intel**: `docs/strategy/`
 - **PRDs**: `docs/prds/`
 - **Skills**: `skills/`
@@ -105,4 +116,4 @@ cd /Users/cobuchan/Projects/youtube && claude
 ```
 
 **Respawn prompt:**
-> Read scratchpad.md and continue where we left off. First priority: install Whisper (`pip install openai-whisper`) so we can transcribe podcast episodes. Then process Episode 264 from Koerner. After that, discuss whether to build the RSS automation or process more videos manually.
+> Read scratchpad.md, patterns.md, and your coordinator agent files to get up to speed. We have 2 strategy intels and 1 moonshot PRD processed. Continue processing YouTube videos from Tier 1/2 sources and updating patterns.md as we identify recurring themes.
