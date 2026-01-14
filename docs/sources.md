@@ -109,7 +109,7 @@ Ideas that translate well to our stack get priority:
 
 ---
 
-### Tier 2: Strategy Intel + Occasional Ideas
+### Tier 2: Strategy Intel + Capability Unlocks
 
 #### Nathaniel Whittemore — The AI Daily Brief
 
@@ -139,6 +139,62 @@ Ideas that translate well to our stack get priority:
 
 ---
 
+#### Simon Willison — Blog + Talks
+
+| Field | Value |
+|-------|-------|
+| Platforms | [Blog](https://simonwillison.net/), [GitHub](https://github.com/simonw), [Twitter](https://twitter.com/simonw) |
+| Frequency | Multiple posts/week |
+| Content Type | Technical AI deep dives, practical applications |
+| Signal Quality | HIGH |
+
+**Why trust him:**
+- Co-creator of Django framework
+- Built sqlite-utils, datasette, llm CLI tool
+- Actually builds things with LLMs, not just talks about them
+- Technical rigor with practical bent
+
+**What to extract:**
+- "This is now possible" capability unlocks
+- Practical prompting/tooling patterns
+- New API features worth exploiting
+- LLM limitations to avoid
+
+**Filtering notes:**
+- When Willison writes "I just built X with Y," that's a signal a product category opened
+- His tools (llm, datasette) are often building blocks for moonshots
+- More technical than other sources — translate to product opportunities
+
+---
+
+#### Swyx — Latent Space
+
+| Field | Value |
+|-------|-------|
+| Platforms | [Podcast](https://www.latent.space/podcast), [Blog](https://www.latent.space/), [Twitter](https://twitter.com/swyx) |
+| Frequency | Weekly podcast + posts |
+| Content Type | AI engineering, agent architecture, technical trends |
+| Signal Quality | HIGH |
+
+**Why trust him:**
+- Former developer experience at Netlify, Vercel, AWS
+- Deep in AI engineering community
+- Interviews builders, not just talkers
+- Coined "AI Engineer" category
+
+**What to extract:**
+- Agent architecture patterns
+- What's actually working in production
+- Technical trends before they go mainstream
+- Infrastructure opportunities
+
+**Filtering notes:**
+- More technical/engineering focused than business focused
+- Good for understanding HOW to build, not just WHAT to build
+- Pairs well with Koerner/Isenberg (they have ideas, Swyx has implementation patterns)
+
+---
+
 ### Tier 3: Candidates to Evaluate
 
 Sources worth evaluating for addition. Haven't fully vetted yet.
@@ -157,9 +213,7 @@ Sources worth evaluating for addition. Haven't fully vetted yet.
 | Source | Why Consider | Content Type |
 |--------|--------------|--------------|
 | **[Lenny's Podcast](https://www.youtube.com/@LennysPodcast)** (Lenny Rachitsky) | Deep product/growth interviews, tactical frameworks | Strategy (Product) |
-| **[Simon Willison](https://simonwillison.net/)** | LLM technical deep dives, practical AI applications | Strategy (Technical) |
 | **[Ethan Mollick](https://www.oneusefulthing.org/)** | AI research translated for practitioners, Wharton professor | Strategy (AI) |
-| **[Latent Space](https://www.latent.space/)** (Swyx) | AI engineering, agent architecture, technical trends | Strategy (Technical) |
 | **[All-In Podcast](https://www.youtube.com/@alaborin)** | Macro tech/business trends, VC perspectives | Strategy (Macro) |
 
 #### Why These Specifically
@@ -170,7 +224,9 @@ Sources worth evaluating for addition. Haven't fully vetted yet.
 
 **Lenny's Podcast** — If you're building a product, this is the best source for "how to do it right." Less ideas, more execution strategy. Worth it for existing projects.
 
-**Simon Willison** — Technical depth on LLMs that's actually useful. When he says "this is now possible," it usually means a new product category just opened.
+**Simon Willison** — Now Tier 2. Technical depth on what's actually possible with LLMs.
+
+**Swyx / Latent Space** — Now Tier 2. AI engineering patterns and agent architecture.
 
 **Ethan Mollick** — Academic rigor applied to AI capabilities. Good for understanding what AI can/can't do, which informs idea viability.
 
