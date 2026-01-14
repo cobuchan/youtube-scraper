@@ -195,6 +195,35 @@ Ideas that translate well to our stack get priority:
 
 ---
 
+#### Lenny Rachitsky — Lenny's Podcast
+
+| Field | Value |
+|-------|-------|
+| Platforms | [YouTube](https://www.youtube.com/@LennysPodcast), [Podcast](https://www.lennyspodcast.com/), [Substack](https://www.lennysnewsletter.com/) |
+| Frequency | 2x/week |
+| Content Type | Product management, growth tactics, founder interviews |
+| Signal Quality | HIGH |
+
+**Why trust him:**
+- Former Airbnb product lead (7 years)
+- Newsletter has 500k+ subscribers
+- Interviews actual operators, not just thought leaders
+- Tactical depth, not fluff
+
+**What to extract:**
+- Growth frameworks that actually work
+- Product-market fit signals
+- Hiring/team building for product roles
+- Monetization strategies
+
+**Filtering notes:**
+- Primary value is making moonshots succeed once built
+- Less about "what to build," more about "how to grow it"
+- Essential for going from MVP to traction
+- Guests often share specific metrics and playbooks
+
+---
+
 ### Tier 3: Candidates to Evaluate
 
 Sources worth evaluating for addition. Haven't fully vetted yet.
@@ -212,7 +241,6 @@ Sources worth evaluating for addition. Haven't fully vetted yet.
 
 | Source | Why Consider | Content Type |
 |--------|--------------|--------------|
-| **[Lenny's Podcast](https://www.youtube.com/@LennysPodcast)** (Lenny Rachitsky) | Deep product/growth interviews, tactical frameworks | Strategy (Product) |
 | **[Ethan Mollick](https://www.oneusefulthing.org/)** | AI research translated for practitioners, Wharton professor | Strategy (AI) |
 | **[All-In Podcast](https://www.youtube.com/@alaborin)** | Macro tech/business trends, VC perspectives | Strategy (Macro) |
 
@@ -222,7 +250,7 @@ Sources worth evaluating for addition. Haven't fully vetted yet.
 
 **Pieter Levels** — Solo built Nomad List, Remote OK, Photo AI to millions in revenue. His approach (ship fast, iterate) matches our philosophy. More Twitter/blog than YouTube.
 
-**Lenny's Podcast** — If you're building a product, this is the best source for "how to do it right." Less ideas, more execution strategy. Worth it for existing projects.
+**Lenny's Podcast** — Now Tier 2. Best source for product/growth execution. Makes moonshots succeed once built.
 
 **Simon Willison** — Now Tier 2. Technical depth on what's actually possible with LLMs.
 
