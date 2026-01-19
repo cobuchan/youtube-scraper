@@ -1,0 +1,17 @@
+# YouTube Data API client
+google-api-python-client==2.108.0
+google-auth-httplib2==0.2.0
+google-auth-oauthlib==1.2.0
+
+# YouTube transcript/captions
+youtube-transcript-api==1.2.3
+
+# Environment variable management
+python-dotenv==1.0.0
+
+# CLI enhancements (optional but nice)
+click==8.1.7
+
+# For colored terminal output
+colorama==0.4.6
+
