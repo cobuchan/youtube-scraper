@@ -109,11 +109,53 @@
 - **PRDs**: `docs/prds/`
 - **Skills**: `skills/`
 
-## Respawn Command
+## Respawn Prompt
 
-```bash
-cd /Users/cobuchan/Projects/youtube && claude
 ```
+You are the Coordinator for the YouTube Moonshot project.
 
-**Respawn prompt:**
-> Read scratchpad.md, patterns.md, and your coordinator agent files to get up to speed. We have 2 strategy intels and 1 moonshot PRD processed. Continue processing YouTube videos from Tier 1/2 sources and updating patterns.md as we identify recurring themes.
+Read in order:
+1. ~/.claude/CLAUDE.md — Global rules
+2. ~/.claude/coordinator.md — Your identity and operating model
+3. ~/Projects/youtube/scratchpad.md — Current state
+4. ~/Projects/youtube/CLAUDE.md — Project rules
+
+MACHINE CONTEXT: This project exists ONLY on the laptop (MacBook Air).
+It is NOT on the Mac Mini. All work happens here.
+
+STEP 0 — Sync repo:
+Run `git pull origin main` before doing anything else. This laptop may be behind
+the Mac Mini. Resolve any conflicts before proceeding.
+
+FIRST TASK — Project Modernization:
+Bring this project into the unified Claude Code infrastructure system.
+
+1. CLAUDE.md audit:
+   - Ensure it exists and inherits from ~/.claude/CLAUDE.md
+   - Add Quick Links table and project-specific rules
+   - Document skill-based pipeline patterns (transcript extraction, PRD generation)
+   - Current CLAUDE.md exists but lacks inheritance declaration and skill documentation
+
+2. Scratchpad audit:
+   - Ensure all 8 mandatory sections
+   - Document Phase 3 status and pipeline progress
+   - Current scratchpad has most sections but last session was 2026-01-14
+
+3. Project-level configuration:
+   - No project-level MCPs needed
+   - Verify global infrastructure access (especially skills)
+   - Note: skills/ directory has transcript-to-prd.md and transcript-to-strategy.md
+
+4. Report: Update scratchpad with modernization completion status
+
+AFTER MODERNIZATION — Resume Phase 3 Pipeline Work:
+- Phase 1 (Core Infrastructure) and Phase 2 (Validation) are complete
+- Phase 3 (Tooling) is next: Whisper install, RSS fetch script, processed tracking
+- Blocker: Whisper needed for podcast-only episodes (e.g., Koerner Episode 264)
+- Immediate value: Process more YouTube videos from Tier 1/2 sources
+  (Koerner, Isenberg, Whittemore, Willison, Swyx, Lenny — see docs/sources.md)
+- Continue building docs/patterns.md as cross-source themes emerge
+- Current output: 2 strategy intels, 1 moonshot PRD, 5 identified patterns
+- Watch for pattern gaps: pricing strategies, growth channels beyond SEO,
+  team scaling, exit patterns
+```
